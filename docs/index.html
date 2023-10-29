@@ -7,6 +7,7 @@
     <meta name="description" content="TypeScript Deep Dive, TypeScript book">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/assets/css/theme-simple.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
     <div id="app"></div>
@@ -20,6 +21,17 @@
         alias: {
           '/docs/(.*)': '/$1',
           '/.*/_sidebar.md': '/_sidebar.md', // See #301
+        },
+        scrollToTop: {
+          auto: true,
+          text: 'Top',
+          right: 15,
+          bottom: 15,
+          offset: 500
+        },
+        'page-toc': {
+          tocMaxLevel: 3,
+          target: 'h1, h2, h3'
         },
       }
     </script>
@@ -36,5 +48,7 @@
     <script src="/assets/js/zoom-image.min.js"></script>
     <!-- <script src="/assets/js/external-script.min.js"></script> -->
     <script src="/assets/js/prism-bash.min.js"></script>
+    <script src="/assets/js/docsify-scroll-to-top.min.js"></script>
+    <script src="/assets/js/docsify-page-toc.min.js"></script>
   </body>
 </html>

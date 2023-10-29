@@ -1,6 +1,3 @@
-* [Начинаем работу с TypeScript](#getting-started-with-typescript)
-* [Версия TypeScript](#typescript-version)
-
 # Начинаем работу с TypeScript
 
 TypeScript компилируется в чистый JavaScript. JavaScript используется для написания пользовательских скриптов ( как в браузере так и на сервере ). Таким образом для работы вам понадобится:

@@ -1,0 +1,22 @@
+{
+  "name": "typescript-book",
+  "version": "1.0.0",
+  "description": "TypeScript Deep Dive",
+  "main": "type/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve ./docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "typescript-book"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT"
+}
